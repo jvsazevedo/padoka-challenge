@@ -1,0 +1,17 @@
+{
+  "name": "bakemaster-api-tests",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Black-box API tests for BakeMaster Pro backends",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:verbose": "vitest run --reporter=verbose"
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
